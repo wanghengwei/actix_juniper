@@ -3,6 +3,7 @@
 use juniper::{FieldResult, EmptyMutation};
 use actix_juniper::graphql_app;
 
+// dummy context
 struct DBContext;
 
 impl juniper::Context for DBContext {}
