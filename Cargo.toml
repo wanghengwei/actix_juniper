@@ -1,0 +1,17 @@
+[package]
+name = "actix_juniper"
+version = "0.1.0"
+authors = ["wanghengwei <wanghengwei@h3d.com.cn>"]
+edition = "2018"
+
+[dependencies]
+futures = "*"
+actix = "*"
+actix-web = "*"
+juniper = "*"
+failure = "*"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
+log = "*"
+env_logger = "*"
